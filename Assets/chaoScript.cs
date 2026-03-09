@@ -1,10 +1,7 @@
-using UnityEditor;
 using UnityEngine;
 
-public class cuboScript : MonoBehaviour
+public class chaoScript : MonoBehaviour
 {
-
-    public Rigidbody2D myRigidbody;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -15,6 +12,6 @@ public class cuboScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print("Hello World");
+        Logica.MoverParaEsquerda(transform);
     }
 }
