@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 
 public class cuboScript : MonoBehaviour
@@ -14,6 +15,6 @@ public class cuboScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        print("Hello World");
     }
 }
